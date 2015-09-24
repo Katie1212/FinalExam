@@ -39,7 +39,7 @@ a:hover, a:focus {
 	text-decoration: none;
 	color: #37b788
 }
-.katie {
+.nav__container__katie {
 	font-weight: 400
 }
 .navbar-custom {
@@ -47,7 +47,7 @@ a:hover, a:focus {
 	border-bottom: 1px solid rgba(255,255,255,.3);
 	text-transform: uppercase;
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-color: #fff
+	background-color: #000
 }
 .navbar-custom .navbar-brand {
 	font-weight: 700
@@ -84,7 +84,7 @@ a:hover, a:focus {
 	outline: 0
 }
 .navbar-custom .nav li.active a {
-	background-color: 1px solid rgba(255,255,255,.3)
+	background-color: #37b788
 }
 .navbar-custom .nav li.active a:hover {
 	color: #fff
@@ -131,14 +131,14 @@ video {
 	background-size: cover;
 	-o-background-size: cover
 }
-.intro .intro-body {
+.intro .intro__body {
 	display: table-cell;
 	vertical-align: middle
 }
-.intro .intro-body .brand-heading {
+.intro .intro__body .intro__title brand-heading {
 	font-size: 40px
 }
-.intro .intro-body .intro-text {
+.intro .intro__body .intro__text {
 	font-size: 18px
 }
 
@@ -148,10 +148,10 @@ video {
 	padding: 0;
 	background-attachment: fixed
 }
-.intro .intro-body .brand-heading {
+.intro .intro__body .brand-heading {
 	font-size: 100px
 }
-.intro .intro-body .intro-text {
+.intro .intro__body .intro__text {
 	font-size: 26px
 }
 }
@@ -266,6 +266,14 @@ transform:scale(1)
 .item img {
 	display: block;
 	width: 100%
+}
+#owl-demo .item {
+	margin: 3px
+}
+#owl-demo .item img {
+	display: block;
+	width: 100%;
+	height: auto
 }
 .btn {
 	border-radius: 0;
